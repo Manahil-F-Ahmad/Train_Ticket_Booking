@@ -1,0 +1,84 @@
+/* .payment{
+    display: flex;
+    /* background-color: aqua; */
+    /* width: 300px;
+    height: 400px;
+    /* resize: both; */
+    /* margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: solid black;
+    flex-wrap: wrap; */ 
+
+/* } */
+
+body{
+    margin: 0;
+    padding: auto;
+}
+
+.bodyforpayment{
+    background-image: url(https://i.pinimg.com/736x/4d/a4/4d/4da44dcb47052ea8db8e0bf9151ba7c0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+.payment{
+    display: flex;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: double #36384e; 
+    border-radius: 20px;
+    padding: 20px; 
+    width: 600px; 
+    margin: auto; 
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(#ffffff5a,#eacefb37,#c4b8a438) */
+    background-color: rgba(141, 183, 255, 0.553);
+}
+
+.entrybox{
+    background-color: #020111a0;
+    height: 40px;
+    width: 150px;
+    border: solid rgb(93, 93, 97);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(197, 188, 255);
+}
+
+.buttons{
+    background-color: #6aa9e0cd;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+/* .optionsbox{
+    background-color: #ffffff5a;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+} */
+
+/* .textBox{
+    height: 100px;
+    width: 500px;
+    resize: both;
+    overflow: visible;
+    background-color: #ffffff5a;
+} */
+
+/* .buttons{
+    background-color: #8484f4;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+} */

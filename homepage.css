@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+} 
+
+.banner{
+    background-image: url(https://i.pinimg.com/736x/4b/37/3d/4b373db8be86802c70fea5ca4164fd05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr / 1fr;
+}
+.welcome{
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    /* margin: auto; */
+    padding-top: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.searchtrain{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    border: solid #faecff; 
+    border-radius: 20px;
+    padding: 40px 70px 40px 70px; 
+    /* width: 550px;  */
+    height: auto;
+    margin: auto; 
+    background: linear-gradient(#ffffff5a,#eacefb37,#ffffff5a);
+    flex-wrap: wrap;
+}
+
+.entrybox{
+    background-color: #3f3e4880;
+    height: 60px;
+    width: 200px;
+    border: solid rgb(93, 93, 97);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.startlooking{
+    background-color: #6aa9e0cd;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.membership, .about{
+    background-color: rgba(1, 27, 50, 0.854);
+    height: 60vh;
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #c4e1fbcd;
+    padding: 20px;
+}
+/* .membership{
+    background-image: url(https://i.pinimg.com/736x/e1/73/6a/e1736a5d1568ca273b08fe122542385f.jpg);
+    background-position-y: 1%;
+}
+
+.about{
+    background-image: url(https://i.pinimg.com/736x/e1/73/6a/e1736a5d1568ca273b08fe122542385f.jpg);
+    background-position-y: 98%;
+} */
+.join, .book{
+    display: flex;
+    align-self: center;
+    justify-content: right;
+    width: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    /* text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: ; */
+    background-color: #6aa9e0cd;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+/* .book{
+    width: 150px;
+} */

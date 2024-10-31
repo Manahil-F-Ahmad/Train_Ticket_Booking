@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="website icon" type="jpeg" href="TC logo.jpeg">
+    <script src="navigation.js"></script>
+
+</head>
+<body>
+    <div class="topbar">
+        <div class="brand"><a href="homepage.html" style="text-decoration: none; color: black;">Ticketing Corner</a></div>
+        <div class="menu">
+            <a href="#" class="menuItem" onclick="homepage()">Home</a>
+            <a href="#" class="menuItem" onclick="membership()">Membership</a>
+            <a href="#" class="login" onclick="login()">Login</a>
+        </div>
+    </div>
+    <section class="bodyforpayment">
+    <!-- <section class="banner">
+        <div class="welcome">
+            Maybe add something here? -->
+        <!-- </div> -->
+    <!-- </section> -->
+        <br>
+        <div class="payment">
+            <form id="paymentform" method="POST">
+                <!-- Code for payment.
+                    Check other sites for examples. -->
+                <br>
+                <h3>Enter your card details to proceed with the payment</h3>
+                <h4>Debit/Credit Card Payment</h4>
+                <!--Include Amount here  -->
+                <br><br><input type="text" placeholder="Name on card" class="entrybox" required> <br>
+                <br><input type="number" placeholder="Enter Card Number" class="entrybox" required> <br>
+                
+                <br><input type="number" placeholder="Month" min="1" max="12" class="entrybox" required> / 
+                <input type="number" placeholder="Year" min="24" max="40" class="entrybox" required> <br>
+                <br><input type="number" placeholder="CVV" min="000" max="999" class="entrybox" required> <br>
+                <br><input list="Cities" placeholder="Country" class="entrybox" required> <br>
+                <datalist id="Cities">
+                    <option value="United Kingdom">
+                    <option value="United States">
+                    <option value="Kuwait">
+                    <option value="Paris">
+                    <option value="Pakistan">
+                    </datalist>
+                <br><input type="text" placeholder="Postcode" class="entrybox" required> <br>
+                
+                <br><br><button type="submit" class="buttons"> <a href="paysuccessful.html" style="text-decoration: none; color: black;">Make Payment</a></button> <br>
+                <br><button type="reset" class="buttons">Clear</button> <br>
+                <br>
+            </form>
+        </div>
+        <br>
+    </section>
+    <footer class="footer">
+        <div class="logo">
+            <br>
+            <img src="TC logo.jpeg" alt="The logo">
+        </div>
+        <div class="pagelinks">
+            <h3>Webpages</h3>
+            <a href="homepage.html">Book a ticket!</a> <br> <br>
+            <a href="membership.html">Get Membership!</a> <br> <br>
+            <a href="login.html">Login!</a>
+            <!-- <a href=""></a> -->
+        </div>
+        <div class="aboutus">
+            <h3>About Us</h3>
+            <p>
+                This is a paragraph about the website
+            </p>
+        </div>
+        <div class="contactus">
+            <h3>Contact Us</h3>
+            <a href="">example_email@gmail.com</a> <br> <br>
+            <a href="">example Instagram page</a>
+        </div>
+    </footer>
+</body>
+</html>

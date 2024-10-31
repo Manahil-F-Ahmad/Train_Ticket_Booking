@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful & Ticket</title>
+    <link rel="website icon" type="jpeg" href="TC logo.jpeg">
+    <link rel="stylesheet" href="topbar.css">
+    <script src="navigation.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="brand"><a href="homepage.html" style="text-decoration: none; color: black;">Ticketing Corner</a></div>
+        <div class="menu">
+            <a href="#" class="menuItem" onclick="homepage()">Home</a>
+            <a href="#" class="menuItem" onclick="membership()">Membership</a>
+            <a href="#" class="login" onclick="login()">Login</a>
+        </div>
+    </div>
+    <section class="banner">
+        <h1 style="background-color: rgba(3, 3, 45, 0.479);">
+            Please Screenshot the ticket, as you will not be able to come back to this page.
+        </h1>
+    </section>
+    <br><br><br>
+    <div class="ticket">
+        <h3 style="text-align: center;">Thank you for booking with TC!</h3>
+        <h3 style="text-align: center;">Scan this at the Gate</h3>
+        <!-- <br> -->
+        <img src="qr-code.jpeg" alt="QR-Code for the ticket" class="qr">
+        <br>
+        <h4>
+            Train ID:
+            Booking ID:
+            <br>
+            Date and Time:
+            <br>
+            From: 
+            Destination: 
+        </h4>
+        <!-- Add the date, name, seat number, destination, time, starting city.
+        Just link to the home php file cuz that will have the info. -->
+    </div>
+    <br>
+    <footer class="footer">
+        <div class="logo">
+            <br>
+            <a href="homepage.html"><img src="TC logo.jpeg" alt="The logo"></a>
+        </div>
+        <div class="pagelinks">
+            <h3>Webpages</h3>
+            <a href="homepage.html">Book a ticket!</a> <br> <br>
+            <a href="membership.html">Get Membership!</a> <br> <br>
+            <a href="login.html">Login!</a>
+            <!-- <a href=""></a> -->
+        </div>
+        <div class="aboutus">
+            <h3>About Us</h3>
+            <p>
+                Ticketing Corner provides cheap and relaiable tickets to their passengers.
+                We aim to make travelling longer distances by train easier and affordable.
+            </p>
+        </div>
+        <div class="contactus">
+            <h3>Contact Us</h3>
+            <a href="">example_email@gmail.com</a> <br> <br>
+            <a href="">example Instagram page</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+    body{
+        /* background-color: rgb(0, 16, 62); */
+        background-image: url(https://i.pinimg.com/736x/6a/7c/d4/6a7cd4fd54374aba1d266d74fd29a806.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 30%;
+    }
+    .ticket{
+        /* display: flex; */
+        background-color: rgba(129, 139, 227, 0.502);
+        height: auto;
+        width: 300px;
+        margin: auto;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .qr{
+        /* display: flex; */
+        /* align-items: center;
+        justify-content: center; */
+        height: inherit;
+        width: inherit;
+        padding: auto;
+    }
+    .banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
+    height: 100vh auto;
+    padding: 10px;
+    margin: 0;
+    color: rgb(148, 196, 250);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+</style>

@@ -1,0 +1,54 @@
+.banner{
+    background-image: url(https://i.pinimg.com/736x/d5/e3/a8/d5e3a86eac0b6234a82f8d064127f46d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    height: 100vh auto;
+    padding: 10px;
+    margin: 0;
+}
+
+.loging{
+    display: flex;
+    background-color: rgba(142, 187, 227, 0.432);
+    border: solid #000;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    /* height: 500px; */
+    padding: 15px;
+    margin: auto;
+}
+
+.signing{
+    display: flex;
+    background-color: rgba(142, 187, 227, 0.432);
+    border: solid #000;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    /* height: 500px; */
+    padding: 15px;
+    margin: auto;
+}
+
+.entrybox{
+    background-color: #0712369d;
+    height: 60px;
+    width: 200px;
+    border: solid rgb(93, 93, 97);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.loged, .signed, .golog, .gosign{
+    background-color: #6aa9e0cd;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}

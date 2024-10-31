@@ -1,0 +1,122 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="website icon" type="jpeg" href="TC logo.jpeg">
+    <script src="navigation.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="brand"><a href="homepage.html" style="text-decoration: none; color: black;">Ticketing Corner</a></div>
+        <div class="menu">
+            <a href="#" class="menuItem" onclick="homepage()">Home</a>
+            <a href="#" class="menuItem" onclick="membership()">Membership</a>
+            <a href="#" class="login" onclick="login()">Login</a>
+            <a href="#" class="myaccount" style="display: none;">Login</a>
+        </div>
+    </div>
+    <section class="banner">
+        <div class="welcome">
+            <p>
+                <!-- <strong> -->
+                    Ticketing Corner <br><br>
+                    Explore the world, one city at a time!
+                <!-- </strong>  -->
+            </p>
+            <br>
+        </div>
+        <!-- Form for train availibility -->
+        <div class="searchtrain">
+            <form id="searchfortrain" method="POST">
+                <!-- <input type="text" placeholder="Enter starting city" class="entrybox"> -->
+                <input list="Cities" placeholder="Starting City" class="entrybox" required>
+                <datalist id="Cities">
+                  <option value="Birmingham">
+                  <option value="Blackburn">
+                  <option value="Preston">
+                  <option value="London">
+                  <option value="Coventry">
+                </datalist>
+                <!-- <input type="text" placeholder="Enter destination" class="entrybox"> <br> -->
+                <input list="Cities" placeholder="Destination City" class="entrybox" required> <br>
+                <datalist id="Cities">
+                    <option value="Birmingham">
+                    <option value="Blackburn">
+                    <option value="Preston">
+                    <option value="London">
+                    <option value="Coventry">
+                </datalist>
+                <br><input type="date" placeholder="Enter date" class="entrybox" required> <br>
+                <!-- <input type="text" id="" placeholder="Enter "> -->
+                <br><input type="number" placeholder="Number of People" class=" entrybox" min="1" required> <br>
+                <!-- <input type="number" placeholder="Children" class="entrybox" required> <br> -->
+                <br><button type="submit" name="submit" class="startlooking"">
+                    <a href="availabilities.php">
+                        Check Tickets
+                    </a>
+                </button>
+            </form>
+        </div>
+        <br>
+    </section>
+        <!-- This will be the membership join thing -->
+        <section class="membership">
+            <div class="textbox">
+                <!-- This will have a persuation to join
+                    and a join us button -->
+                    <h2>Join our Membership for Discounted Prices!</h2>
+                    <h3>
+                        Unlock exclusive discounts, priority booking, and seamless travel experiences. Join now for convenient, cost-effective <br> journeys with our train card subscription!
+                    </h3>
+                    <a href="membership.html" class="join">
+                        <button class="button">Join Us</button>
+                    </a>
+                </div>
+            </section>
+            <!-- This will be the about us thing -->
+            <section class="about">
+                <!-- This is the same, but it is ONLY a text box 
+                    Wait no, maybe a book now button? but where would that go?
+                    the top of the page maybe?-->
+                    <h2>Knowledge builds Trust! Here's more about us!</h2>
+                    <h3>
+                        Embark on a journey of savings with our commitment to providing affordable train tickets. 
+                        Experience seamless <br> travel at lower costs, ensuring accessibility and convenience for all passengers. 
+                        Join us <br> and explore the world affordably today!
+                    </h3>
+                    <a href="homepage.html" class="book">
+                        <button class="button">Book with us now!</button>
+                    </a>
+                </section>
+                <!-- This is the footer -->
+    <footer class="footer">
+        <div class="logo">
+            <br>
+            <img src="TC logo.jpeg" alt="The logo">
+        </div>
+        <div class="pagelinks">
+            <h3>Webpages</h3>
+            <a href="homepage.html">Book a ticket!</a> <br> <br>
+            <a href="membership.html">Get Membership!</a> <br> <br>
+            <a href="login.html">Login!</a>
+            <!-- <a href=""></a> -->
+        </div>
+        <div class="aboutus">
+            <h3>About Us</h3>
+            <p>
+                Ticketing Corner provides cheap and relaiable tickets to their passengers.
+                We aim to make travelling longer distances by train easier and affordable.
+            </p>
+        </div>
+        <div class="contactus">
+            <h3>Contact Us</h3>
+            <a href="">example_email@gmail.com</a> <br> <br>
+            <a href="">example Instagram page</a> 
+        </div>
+    </footer>
+</body>
+</html>
